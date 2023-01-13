@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'gothambook';
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.btn1{
+    border: none;
+    border-radius: 1px;
+    color: white;
+    background-color: black;
+    width: 155px;
+    height: 35px;
+    font-family: 'gothambook_italic';
+}
+
+.btn2{
+    border: 2px solid black;
+    border-radius: 1px;
+    color: black;
+    width: 155px;
+    height: 35px;
+}
+
+.btn4{
+
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 1px;
+    color: white;
+    width: 165px;
+    height: 35px;
+}
+
+.btn4:hover{
+    background-color: white;
+    color: black;
+    transition: 0.90s;
+}
+
+h1{
+    width: 100%;
+    font-family: 'gothamlight';
+}
+
+p{
+    width: 110%;
+    
+}
+
+.herotxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.Aboutus-Section{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    padding: 40px;
+    height: 80vh;
+}
+
+.z-indexed-aboutimgs{
+    display: flex;
+    padding: 70px;
+    position: relative;
+    bottom: 370px;
+}
+
+.ever-y{
+    position: relative;
+    top: 80px;
+}
+
+.about1{
+    width: 300px;
+    position: absolute;
+   /*  z-index: 1; */
+}
+
+.about2{
+    width: 300px;
+    position: relative;
+    z-index: 1;  
+    left: 200px;
+    top: 200px;
+}
+
+.logo-righthome{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.Aboutus-Section .h1-vertical{
+  writing-mode: vertical-lr; 
+  text-orientation: sideways; 
+  display: flex;
+  color: rgb(61, 61, 61);
+  font-size: 60px;
+  justify-content: center;
+  position: relative;
+ 
+}
+
+.About-us-Black{
+    padding: 70px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.calculator{
+    background-color: black;
+    color: white;
+    width: 1200px;
+    height: 400px;
+    padding: 70px;
+    position: relative;
+
+}
+
+.calc2{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-aboutus{
+    width: 70%;
+}
+
+.buttons-about{
+    display: flex;
+    gap: 20px;
+}
+
+.btn1-about{
+    border: 2px solid white;
+    border-radius: 1px;
+    color: white;
+    background-color: transparent;
+    width: 90px;
+    height: 35px;
+}
+
+.btn2-about{
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 1px;
+    color: white;
+    width: 110px;
+    height: 35px;
+}
+
+.About-us-Black{
+   background-color: black; 
+   height: 30vh;
+}
+
+.righthome-logo{
+    width: 250px;
+}
+
+.righthome-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moreinfor{
+    background-color: black;
+    height: 90vh;
+    
+}
+
+.image1-main{
+    width: 300px;
+    position: relative;
+    bottom: 60px;
+}
+
+.mainAvatars{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.multi-thumbnails{
+    display: flex;
+    gap: 60px;
+}
+
+.whatourclients{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.vector-img{
+    width: 600px;
+}
+
+.vect-pos{
+
+}
+
+.whatourclients h1{
+    width: 60%;
+    background-color: white;
+    position: relative;
+    bottom: 210px;
+    left: 210px;
+    text-align: center;
+}
+
+.whatourclients p{
+    width: 90%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.p-names{
+    color: rebeccapurple;
+    position: relative;
+
+    right: 35px;
+}
+
+.p-footer-a{
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.footer{
+    background-image: url(../Img/Rectangle\ 51.png);
+    height: 60vh;
+}
+
+#avatar1, #avatar2, #avatar3, #avatar4, #avatar5{
+    cursor: pointer;
+}
+
